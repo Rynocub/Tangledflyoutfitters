@@ -1,0 +1,81 @@
+.Shop-display-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+  background: #bfbfbf;
+}
+
+.container2{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 900px;
+  height: 600px;
+  background: #e1e1e1;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.container2 .imgBX{
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 460px;
+height: 600px;
+background: #000000;
+border-radius: 20px 0 0 20px;
+}
+
+.container2 .details{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+.container2 .details .h9{
+  margin: 0;
+  padding: 0;
+  font-size: 3em;
+  line-height: 1em;
+  color: #444;
+  cursor: pointer;
+}
+.container2 .details .h9 .Collection{
+  font-size: 150px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1em;
+  color: #999;
+  cursor: pointer;
+}
+.container2 .details .Description{
+  max-width: 85%;
+  margin-left: 15%;
+  color: #333;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.container2 .details button{
+  display: flex;
+  background: #0d0f0e;
+  color: #fff;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  padding: 15px 20px;
+  margin-top: 10px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 400px;
+  float: right;
+}
